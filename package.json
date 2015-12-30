@@ -1,0 +1,14 @@
+{
+  "name": "language-cgx",
+  "version": "0.0.0",
+  "description": "A moderately useless package for using fbd-files with Calculix cgx",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/fiziko/language-cgx",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

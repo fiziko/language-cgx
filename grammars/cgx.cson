@@ -1,0 +1,43 @@
+# If this is your first time writing a language grammar, check out:
+#   - http://manual.macromates.com/en/language_grammars
+
+'scopeName': 'source.cgx'
+'name': 'cgx'
+'fileTypes': [
+  'fbd'
+]
+'patterns': [
+      { 'include': '#comments' }
+      { 'include': '#constants' }
+      { 'include': '#commands' }
+]
+
+'repository':
+  # comments
+  'comments':
+    'patterns': [
+      {
+        'comment': 'Comment line'
+        'begin': '#'
+        'end': '(?=\\n)'
+        'name': 'comment.line.c.cgx'
+      }
+    ]
+  # constants:
+  'constants':
+    'patterns': [
+      {
+        'comment': 'Numeric constants'
+        'name': 'constant.numeric.cgx'
+        'match': '(?ix)[\\+\\-]?\\b(\\d+\\.?\\d*|\\.\\d+)(d[\\+\\-]?\\d+|e[\\+\\-]?\\d+(_\\w+)?)?(?![a-z_])'
+      }
+    ]
+  # keywords
+  'commands':
+   'patterns': [
+     {
+      'comment': 'Commands'
+      'name': 'keyword.other.cgx'
+      'match': '((?i)ANIM  |(?i)AREA |(?i)ASGN |(?i)BIA |(?i)BODY |(?i)BREAK |(?i)CALL |(?i)CNTR |(?i)COMP |(?i)COPY |(?i)CORRAD |(?i)CSYSA |(?i)CUT |(?i)DEL |(?i)DIST |(?i)DIV |(?i)DS |(?i)ELEM |(?i)ELSE |(?i)ENDIF |(?i)ENDWHILE |(?i)ELTY |(?i)ENQ |(?i)EQAL |(?i)EXIT |(?i)FLIP |(?i)FLPC |(?i)FONT |(?i)FRAME |(?i)GBOD |(?i)GONLY |(?i)GRAPH |(?i)GRPS |(?i)GSUR |(?i)GTOL |(?i)HCPY |(?i)HELP |(?i)IF |(?i)LCMB |(?i)LENGTH |(?i)LINE |(?i)LNOR |(?i)MATA |(?i)MAP |(?i)MATS |(?i)MAX |(?i)MERG |(?i)MESH |(?i)MIDS |(?i)MIN |(?i)MINUS |(?i)MM |(?i)MOVE |(?i)MOVI |(?i)MSG |(?i)NODE |(?i)NURL |(?i)NURS |(?i)ORI |(?i)PLOT |(?i)PLUS |(?i)PNT |(?i)PRNT |(?i)PROJ |(?i)QADD |(?i)QALI |(?i)QBIA |(?i)QBOD |(?i)QCNT |(?i)QCUT |(?i)QDEL |(?i)QDIS |(?i)QDIV |(?i)QENQ |(?i)QFIL |(?i)QFLP |(?i)QINT |(?i)QLIN |(?i)QMSH |(?i)QNOR |(?i)QPNT |(?i)QNOD |(?i)QREM |(?i)QSEQ |(?i)QSHP |(?i)QSPL |(?i)QSUR |(?i)QTXT |(?i)QUIT |(?i)READ |(?i)REP |(?i)RNAM |(?i)ROT |(?i)SAVE |(?i)SCAL |(?i)SEND |(?i)SEQA |(?i)SEQL |(?i)SETA |(?i)SETC |(?i)SETE |(?i)SETI |(?i)SETO |(?i)SETR |(?i)SHPE |(?i)SPLIT |(?i)STACK |(?i)STEPS |(?i)SURF |(?i)SWEP |(?i)SYS |(?i)TEST |(?i)TEXT |(?i)TRA |(?i)TRFM |(?i)UCUT |(?i)VALU |(?i)VIEW |(?i)VOLU |(?i)WHILE |(?i)ZAP |(?i)ZOOM)'
+      }
+    ]
