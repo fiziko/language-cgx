@@ -1,6 +1,6 @@
 {
   "name": "language-cgx",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A moderately useless package for using fbd-files with Calculix cgx",
   "keywords": [
     "language",
