@@ -1,3 +1,3 @@
 # language-cgx
 A moderately useless package for using fbd-files with Calculix cgx
-![Alt text](disc.fbd.png?raw=true "Optional Title")
+![Lost Image?](https://raw.githubusercontent.com/fiziko/language-cgx/master/disc.fbd.png?raw=true "language-cgx")
