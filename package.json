@@ -4,7 +4,9 @@
   "description": "Atom language support for cgx: Syntax highlighting for Calculix: fbd, fbl",
   "keywords": [
     "language",
-    "grammar"
+    "grammar",
+    "cgx",
+    "Calculix"
   ],
   "repository": "https://github.com/fiziko/language-cgx",
   "license": "MIT",
