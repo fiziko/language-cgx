@@ -10,7 +10,7 @@ Syntax highlighting for Calculix: fbd, fbl
 ```sh
 apm install language-cgx
 ```
-or find it in the Atom Settings View
+or install from Atom "Settings View".
 
 
-[preview]: https://raw.githubusercontent.com/fiziko/language-cgx/master/disc.fbd.png "Preview: language-cgx"
+[preview]: https://raw.githubusercontent.com/fiziko/language-cgx/master/preview.png "Preview: language-cgx"

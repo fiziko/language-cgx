@@ -19,7 +19,7 @@
     'patterns': [
       {
         'comment': 'Comment line'
-        'begin': '^#'
+        'begin': '^\\s*#'
         'end': '(?=\\n)'
         'name': 'comment.line.c.cgx'
       }
