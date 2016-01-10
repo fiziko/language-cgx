@@ -1,4 +1,5 @@
 # Atom language support for cgx
+[![apm][2]][1]
 
 Syntax highlighting for Calculix: fbd, fbl
 
@@ -21,4 +22,7 @@ In Atom:
 
 This will show your file with syntax-highlighting - and this is all this package does.
 
+
+[1]: https://atom.io/packages/language-cgx
+[2]: https://img.shields.io/apm/l/icon-fonts.svg?style=flat
 [preview]: https://raw.githubusercontent.com/fiziko/language-cgx/master/preview.png "Preview: language-cgx"
