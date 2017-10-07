@@ -1,6 +1,6 @@
 {
   "name": "language-cgx",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Atom language support for cgx: Syntax highlighting for Calculix: fbd, fbl",
   "keywords": [
     "language",
