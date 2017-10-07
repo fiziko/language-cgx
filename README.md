@@ -1,7 +1,7 @@
 # Atom language support for cgx
 [![apm][2]][1]
 
-Syntax highlighting for Calculix: fbd, fbl
+Syntax highlighting for Calculix cgx files (fbd and fbl)
 
 ## Preview
 ![Preview][preview]
@@ -17,7 +17,7 @@ or install from Atom "Settings View".
 
 In Atom:
 
-* open file xxx.fbd or xxx.fbl to load cgx grammar automatically or 
+* open file xxx.fbd or xxx.fbl to load cgx grammar automatically or
 * open any file, pull up Grammar-Selector with `ctrl-shift-L` and choose cgx grammar
 
 This will show your file with syntax-highlighting - and this is all this package does.
